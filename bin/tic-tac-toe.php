@@ -6,5 +6,5 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 use DenisBiushkin\TicTacToe\Controller\Controller;
 
-$controller = new Controller;
+$controller = new Controller();
 $controller->startGame();
